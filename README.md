@@ -1,10 +1,12 @@
 # Quantum Error Correction Project
-# Philippe M. Noël, Alaisha Sharma, Nicolas Weninger
-
-
+Philippe M. Noël, Alaisha Sharma, Nicolas Weninger
 ---
+
+
+
+
+
 must update here
----
 
 
 
