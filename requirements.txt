@@ -3,3 +3,4 @@ qutip
 qiskit
 qiskit.tools.visualization
 Qconfig
+IPython.display
