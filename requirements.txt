@@ -1,0 +1,5 @@
+numpy
+qutip
+qiskit
+qiskit.tools.visualization
+Qconfig
