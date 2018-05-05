@@ -1,5 +1,5 @@
 # Quantum Error Correction Project – QEC for small to large systems
-Philippe M. Noël, Alaisha Sharma, Nicolas Weninger
+Philippe Noël, Alaisha Sharma, Nicolas Weninger
 ---
 
 Installations (MacOS):
