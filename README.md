@@ -1,4 +1,4 @@
-# Quantum Error Correction Project
+# Quantum Error Correction Project – QEC for small to large systems
 Philippe M. Noël, Alaisha Sharma, Nicolas Weninger
 ---
 
@@ -32,20 +32,18 @@ import Qconfig
 print(Qconfig.APItoken, Qconfig.config['url'])
 ```
 ---
+Project Overview
+---
+We will be recreating and exploring the curcuits as given in Quantum Error Correction for Beginners (Devitt et al.), specifically, the X and Z flip 3-qubit codes and the X and Z flip 9-qubit codes. We will then exexute them as follows:
 
+1. Run the theoretical similation with a local quantum simulator as a control experiment.
 
+2. Run the theoretical similation with a local quantum simulator with an induced error.
 
+3. Run the circuit on an IBM Q computer without the error corrction in place.
 
+4. Run the circuit on an IBM Q computer with the error corrction in place.
 
+Once we have demonstrated this for the indivudual X and Z flips, we will try to combine the error correction schemes to operate on both X and Z flips, following the same schema as above. 
 
-
-must update here
-
-
-
-
-
-
-
-
-ES170 Final Project - Exploring quantum error correction for small to large systems
+Following this and time allowing, we will run an instance of the Deutch-Jose algorithm with our error correction scheme on IBM Q's 16-qubit computer and see whether we achieve higher fidelity computation than in the lab. 
