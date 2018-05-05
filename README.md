@@ -34,16 +34,14 @@ print(Qconfig.APItoken, Qconfig.config['url'])
 ---
 Project Overview
 ---
-We will be recreating and exploring the curcuits as given in Quantum Error Correction for Beginners (Devitt et al.), specifically, the X and Z flip 3-qubit codes and the X and Z flip 9-qubit codes. We will then exexute them as follows:
+We recreated and explored the curcuits as given in Quantum Error Correction for Beginners (Devitt et al.), specifically, the X and Z flip 3-qubit codes and the X and Z flip 9-qubit codes. We then used these error-corrected qubits as a basis to run the Deutsch-Josza algorithm and analyze the error frequencies between the error-corrected and non-error-corrected versions. Lastly, we experimented theoretically on a larger scale system which is too large to be ran on an actual quantum computer. We then exexuted our circuits as follows:
 
-1. Run the theoretical similation with a local quantum simulator as a control experiment.
+1. Run the theoretical simulation with a local quantum simulator as a control experiment.
 
-2. Run the theoretical similation with a local quantum simulator with an induced error.
+2. Run the theoretical simulation with a local quantum simulator with an induced error.
 
-3. Run the circuit on an IBM Q computer without the error corrction in place.
+3. Run the circuit on an IBM Q computer without the error correction in place.
 
 4. Run the circuit on an IBM Q computer with the error corrction in place.
 
-Once we have demonstrated this for the indivudual X and Z flips, we will try to combine the error correction schemes to operate on both X and Z flips, following the same schema as above. 
-
-Following this and time allowing, we will run an instance of the Deutch-Jose algorithm with our error correction scheme on IBM Q's 16-qubit computer and see whether we achieve higher fidelity computation than in the lab. 
+After demonstrating these simple errors for the individual X and Z flips, we have combined the error correction schemes to operate on both X and Z flips, following the same schema as above, and we have run an instance of the Deutsch-Joza algorithm with our error correction scheme on IBM Q's 16-qubit computer. This is the largest quantum computer we have access to, so all other work on our larger system has been theoretical and ran solely on the quantum simulator.
