@@ -7,6 +7,7 @@ Installations (MacOS):
 In order to be able to run quantum computations on your local device, you must download the required packages and set up your IBM Q experience account and API key. Make sure you have Python 3.4 or higher (required by QuTip). Then, make sure that you have pip installed and that it is up to date and run:
 ```
 pip install qiskit
+pip install qutip
 pip install IBMQuantumExperience
 ```
 You must now set up your IBM Q account (in order to run the calculations not only as quantum simulations but on the actual IBM quantum computers):
